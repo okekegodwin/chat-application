@@ -6,6 +6,12 @@
   <title>Chat Box</title>
 </head>
 <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   body { 
     margin: 0; 
     padding-bottom: 3rem; 
@@ -13,8 +19,11 @@
   }
 
   h1 {
-    text-align: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 2rem;
     color: rgb(7, 148, 7);
+    font-size: 20px;
   }
 
   #form { 
@@ -61,7 +70,7 @@
   }
 </style>
 <body>
-  <h1>Chat App</h1>
+  <h1>ChatApp</h1>
   
   <ul id="messages"></ul>
   <form id="form" action="">
